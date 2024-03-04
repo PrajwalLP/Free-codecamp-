@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >Name:
+          <input id="name" type="text" required placeholder="Enter your name" />
+        </label>
+        <label id="email-label"
+          >Email:
+          <input
+            id="email"
+            type="email"
+            reuired
+            placeholder="email"
+            required
+          /> </label
+        >Age
+        <label id="number-label">
+          <input
+            id="number"
+            type="number"
+            min="0"
+            max="120"
+            placeholder="Number"
+          />
+        </label>
+        <label id="dropdown-label">
+          <select id="dropdown">
+            <option>Select one option</option>
+            <option>Hello</option>
+            <option>World</option>
+          </select>
+          <input value="type-1" name="type" type="radio" />
+          <input value="type-2" name="type" type="radio" />
+          <input value="type-3" name="type" type="radio" />
+        </label>
+        <label id="Checkbox-label"
+          >Choose: <input type="checkbox" value="First" required />First.
+          <input type="checkbox" value="second" required />Second.
+          <input type="checkbox" value="third" required />Third.
+          <input type="checkbox" value="Fourth" required />Fourth.
+        </label>
+        <label id="Textarea-label">
+          <textarea id="textarea"> </textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>
